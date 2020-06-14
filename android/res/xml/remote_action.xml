@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remote-actions version="1.2">
+    <action
+        id="mass_inc"
+        label="MassInc"
+        priority="1"
+        trigger_key="KEYCODE_A">
+        <preference name="gesture" value="swipe_right"/>
+        <preference name="motion_only" value="true"/>
+        <preference/>
+    </action>
+    <action
+        id="mass_dec"
+        label="MassDec"
+        priority="2"
+        trigger_key="KEYCODE_B">
+        <preference name="gesture" value="swipe_left"/>
+        <preference name="motion_only" value="true"/>
+    </action>
+    <action
+        id="volume_inc"
+        label="VolumeInc"
+        priority="3"
+        trigger_key="KEYCODE_C">
+        <preference name="gesture" value="swipe_up"/>
+        <preference name="motion_only" value="true"/>
+    </action>
+    <action
+        id="volume_dec"
+        label="VolumeDec"
+        priority="4"
+        trigger_key="KEYCODE_D">
+        <preference name="gesture" value="swipe_down"/>
+        <preference name="motion_only" value="true"/>
+    </action>
+    <action
+        id="temp_inc"
+        label="TempInc"
+        priority="5"
+        trigger_key="KEYCODE_E"
+        repeatable="true"
+        repeatable_interval="short">
+        <preference name="gesture" value="circle_cw"/>
+        <preference name="motion_only" value="true"/>
+    </action>
+    <action
+        id="temp_dec"
+        label="TempDec"
+        priority="6"
+        trigger_key="KEYCODE_F"
+        repeatable="true"
+        repeatable_interval="short">
+        <preference name="gesture" value="circle_ccw"/>
+        <preference name="motion_only" value="true"/>
+    </action>
+</remote-actions>

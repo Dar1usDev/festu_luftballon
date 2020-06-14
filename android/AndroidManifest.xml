@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.darius.luftballon" >
+
+    <application
+        android:allowBackup="true"
+        android:appCategory="game"
+        android:icon="@drawable/designer_soul"
+        android:isGame="true"
+        android:label="@string/app_name"
+        android:screenOrientation ="reverseLandscape"
+        android:theme="@style/GdxTheme"
+        tools:targetApi="lollipop">
+        <activity
+            android:name="com.darius.luftballon.AndroidLauncher"
+            android:label="@string/app_name"
+            android:screenOrientation="userLandscape"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.samsung.android.support.REMOTE_ACTION"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="com.samsung.android.support.REMOTE_ACTION"
+                android:resource="@xml/remote_action"/>
+        </activity>
+    </application>
+
+</manifest>
