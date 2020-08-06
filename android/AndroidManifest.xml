@@ -25,7 +25,7 @@
             </intent-filter>
             <meta-data
                 android:name="com.samsung.android.support.REMOTE_ACTION"
-                android:resource="@xml/remote_action"/>
+                android:resource="@xml/remote_action_test"/>
         </activity>
     </application>
 

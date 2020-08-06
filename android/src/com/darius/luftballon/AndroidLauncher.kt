@@ -7,7 +7,7 @@ import com.darius.luftballon.Activities.StartActivity
 
 
 class AndroidLauncher : AndroidApplication() {
-    private var spen: SPen? = null
+    //private var spen: SPen? = null
 
     private var startActivity: StartActivity? = null
 
